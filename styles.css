@@ -1,0 +1,164 @@
+body {
+  font-family: 'Sarabun', 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #2C3E50;
+    padding: 20px 20px; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end; 
+  }
+  
+  nav ul li {
+    display: block;
+  }
+  
+  nav ul li.nav-title {
+    color: #FFD700;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.8em; 
+  }
+  
+  nav ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 25px; 
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #1ABC9C; 
+    color: #000000;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 50px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .Prokaryote-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .indented {
+    font-size: 20px;
+    text-indent: 40px; 
+    color: #555;
+  }
+
+  .indented-2 {
+    font-size: 20px;
+    text-indent: 60px; 
+    color: #555;
+  }
+  
+  .cell-home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .celltype-home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  
+  .imgtext-home {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .typetext {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .image-row {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .image-container {
+    margin: 10px;
+  }
+  
+  .image-container img {
+    width: 450px;
+    height: auto;
+  }
+
+  .structure-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .division-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  
+  .container-ref {
+    background-color: #34495E;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+.ref-link {
+    color: #ECF0F1;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.ref-link:hover {
+    color: #1ABC9C; 
+    text-decoration: underline;
+}
+
+.ref {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ECF0F1;
+}
